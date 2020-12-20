@@ -31,7 +31,7 @@ fi
 
 scanner() {
 
-read -p $'\e[1;92m[\e[0m\e[1;77m?\e[0m\e[1;92m] Input Username:\e[0m ' username
+read -p $'\e[1;92m[\e[0m\e[1;77m?\e[0m\e[1;92m] Input Username:rustyhemli ' username
 
 if [[ -e $username.txt ]]; then
 printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Removing previous file:\e[0m\e[1;77m %s.txt" $username
